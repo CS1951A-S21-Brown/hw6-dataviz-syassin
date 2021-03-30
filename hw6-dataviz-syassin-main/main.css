@@ -1,0 +1,22 @@
+.header {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.header > h3, h5 {
+    margin: 0;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.labels {
+    font-family: sans-serif;
+    font-size: 15px;
+    fill: #000000;
+}
+
+.bdyp {
+    max-width: 650px;
+    margin-left: 100px;
+  }	
+/* Include any custom CSS styling here! */
