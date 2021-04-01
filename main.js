@@ -20,7 +20,7 @@ let svg = d3.select("#graph1")
     
 let countRef = svg.append("g");
 
-d3.csv("./data/q1data.csv").then(function (data) {
+d3.csv("data/q1data.csv").then(function (data) {
 console.log(data)
 
 let x = d3.scaleLinear()
@@ -106,7 +106,7 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json")
         .style('fill', d => {return "green"});
       
         
-    d3.csv("./data/q2df.csv").then(function (data) {
+    d3.csv("data/q2df.csv").then(function (data) {
         g.selectAll("text").data(data)
             .enter()
             .append("text")
@@ -144,7 +144,7 @@ d3.json("https://cdn.jsdelivr.net/npm/world-atlas@2.0.2/countries-110m.json")
         
       
         
-    d3.csv("./data/q3df.csv").then(function (data) {
+    d3.csv("data/q3df.csv").then(function (data) {
         g2.selectAll("text").data(data)
             .enter()
             .append("text")
